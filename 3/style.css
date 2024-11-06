@@ -1,0 +1,19 @@
+body {
+  background-color: #342a29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  flex-direction: column;
+  height: 100vh;
+}
+p {
+  color: #fcc208;
+  margin: 0;
+}
+span {
+  color: #fffeff;
+}

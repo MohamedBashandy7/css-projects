@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+}
+
+.box-1 {
+  width: 1000px;
+  height: 400px;
+  outline: 2px dashed #d1cbcb;
+  background-color: #d2d2d2;
+}
+
+.box-2 {
+  width: 90%;
+  height: 75%;
+  background-color: #08a169;
+  border: 2px solid #08a169;
+  margin: auto;
+}
+
+.box-3 {
+  width: 90%;
+  height: 60%;
+  background-color: #d2d2d2;
+  border: 2px solid #414242;
+  margin: auto;
+}
+
+.box-4 {
+  width: 90%;
+  height: 50%;
+  background-color: #ffffff;
+  border: 2px dashed #414242;
+  margin: auto;
+}

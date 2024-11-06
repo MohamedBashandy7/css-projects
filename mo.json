@@ -1,0 +1,33 @@
+[
+  {
+    "title": "The Intel Microprocessors",
+    "edition": "8th Edition",
+    "year": 2013
+  },
+  {
+    "title": "The 8085A Microprocessor: Software, Programming and Architecture",
+    "edition": "2nd Edition",
+    "year": 2008
+  },
+  {
+    "title": "Applying PIC18 Microcontrollers: Architecture, Programming, and Interfacing",
+    "year": 2007
+  },
+  {
+    "title": "INTEL Microprocessors: 8086/8088, 80186/80188, 80286, 80386, 80486, Pentium, Pentium ProProcessor, Pentium II, III, IV",
+    "edition": "7th Edition",
+    "year": 2005
+  },
+  {
+    "title": "Programming the 80286, 80386, 80486, and Pentium Based Personal Computer",
+    "year": 1995
+  },
+  {
+    "title": "Embedded Controllers: 80186, 80188, and 80386EX",
+    "year": 1997
+  },
+  {
+    "title": "The Motorola Microprocessor Family: Programming and Interfacing with Applications",
+    "year": 1995
+  }
+]

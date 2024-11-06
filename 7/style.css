@@ -1,0 +1,27 @@
+body {
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+}
+h1 {
+  background-color: #eeeeee;
+  display: block;
+}
+li {
+  font-size: 23px;
+}
+ul {
+  list-style-type: none;
+  gap: 20px;
+}
+div,
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.mo {
+  display: block;
+}

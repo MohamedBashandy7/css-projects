@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 30px;
+}
+
+.one {
+  border: 5px #e2e4f0 solid;
+  background-color: #4169e2;
+  color: #e1e46f;
+}
+.two {
+  border: 5px #ddcbe2 dashed;
+  background-color: #56024d;
+  color: white;
+}
+.three {
+  border: 5px #d8d5d5 solid;
+  background-color: #8b2500;
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.four {
+  border: 5px #ddcbe2 dotted;
+  background-color: #00857c;
+  color: #cffffd;
+}
+.one,
+.two,
+.three,
+.four {
+  padding: 20px;
+}

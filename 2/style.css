@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  font-weight: bold;
+  font-size: 2em;
+  flex-direction: column;
+}
+.multi {
+  color: #e97e5c;
+}
+.colored {
+  color: #fcd041;
+}
+.text {
+  color: #b5d33c;
+}
+.in {
+  color: #6aa3e8;
+}
+.css {
+  color: #412385;
+}
+.multi,
+.colored,
+.text,
+.in,
+.css {
+  margin: 0 !important;
+}
+p {
+  display: block;
+}

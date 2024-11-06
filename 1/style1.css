@@ -1,0 +1,57 @@
+body {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.colored-text span {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.colored-text span[data-color="red"] {
+  color: red;
+}
+.colored-text span[data-color="orange"] {
+  color: orange;
+}
+.colored-text span[data-color="yellow"] {
+  color: yellow;
+}
+.colored-text span[data-color="green"] {
+  color: green;
+}
+.colored-text span[data-color="blue"] {
+  color: blue;
+}
+.colored-text span[data-color="indigo"] {
+  color: indigo;
+}
+.colored-text span[data-color="violet"] {
+  color: violet;
+}
+.colored-text span[data-color="cyan"] {
+  color: cyan;
+}
+.colored-text span[data-color="magenta"] {
+  color: magenta;
+}
+.colored-text span[data-color="lime"] {
+  color: lime;
+}
+.colored-text span[data-color="pink"] {
+  color: pink;
+}
+.colored-text span[data-color="gold"] {
+  color: gold;
+}
+
+.space {
+  width: 0.2em; /* يمكنك تعديل العرض حسب الحاجة */
+  display: inline-block;
+}

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background-color: #4ab74a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+  height: 100vh;
+}
+.container {
+  background-color: white;
+  width: 450px;
+  height: 350px;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  word-spacing: 0.1px;
+}
+i {
+  color: #818181;
+  font-size: 20px;
+}
+input[type="text"] {
+  padding: 6px;
+  border: 1px solid #ccc;
+}
+.add {
+  background-color: #0094d4;
+  padding: 7px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.todo-item {
+  display: block;
+  margin: 5px 0;
+}
+.strikethrough {
+  text-decoration: line-through;
+  background-color: #ddd;
+  padding: 2px 359px 2px 2px;
+}
+.todo-item.two {
+  text-decoration: line-through;
+}
+.todo-item::before {
+  content: attr(data-number) ". ";
+  text-decoration: inherit;
+  margin-right: 5px;
+}
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 2px;
+  padding-left: 30px;
+}
+.clear1 {
+  background-color: #0095d5;
+}
+.clear2 {
+  background-color: #991c23;
+}
+.clear3 {
+  background-color: #4ab74a;
+}
+.clear1,
+.clear2,
+.clear3,
+.add {
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+.clear1,
+.clear2,
+.clear3{
+    padding: 7px 25px;
+    margin-top: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* ol li {
+  list-style: ;
+} */

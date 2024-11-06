@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* text-align: center; */
+  background-color: #ededed;
+}
+table {
+  border-spacing: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.th_head {
+  color: white;
+  font-size: 20px;
+}
+
+.thead_border {
+  background-color: #009875;
+  border: 1px solid #009875;
+}
+.border1 {
+  border-top-left-radius: 10px;
+}
+.border2 {
+  border-top-right-radius: 10px;
+}
+.one,
+.three {
+  background-color: white;
+  font-size: 18px;
+}
+td {
+  padding: 15px 80px 15px 15px;
+}
+.two {
+  color: #009875;
+  background-color: #f3f3f3;
+  font-size: 18px;
+}
+.three {
+  border-bottom: 3px solid #009875;
+}
